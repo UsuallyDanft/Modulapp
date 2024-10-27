@@ -1,0 +1,38 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.0  # Movido aquí y corregida la indentación
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Ubuntu
+      fonts:
+        - asset: fonts/Ubuntu-Regular.ttf
+        - asset: fonts/Ubuntu-Bold.ttf
+          weight: 700
+        - asset: fonts/Ubuntu-Italic.ttf
+          style: italic
+  assets:
+    - assets/icono_buscar.png
+    - assets/icono_home.png
+    - assets/icono_config.png
+    - assets/pacientes.png
+    - assets/files.png
+    - assets/Mom.png
+    - assets/calendar.png
+
+# Se eliminó la segunda sección de dependencies
